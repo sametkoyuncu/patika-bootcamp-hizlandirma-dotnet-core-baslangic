@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = HelloWebApi
-build_property.ProjectDir = C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\dotnet5\hello\HelloWebApi\
+build_property.ProjectDir = c:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\dotnet5\hello\HelloWebApi\
