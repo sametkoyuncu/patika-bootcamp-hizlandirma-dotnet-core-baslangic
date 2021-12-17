@@ -7,7 +7,7 @@ namespace Koleksiyonlar_Soru_1
     {
         static void Main(string[] args)
         {
-            int arrayLenght = 5;
+            int arrayLenght = 20;
             int[] numbers = new int[arrayLenght];
             ArrayList asal = new ArrayList();
             ArrayList asalDegil = new ArrayList();
