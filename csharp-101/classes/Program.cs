@@ -6,11 +6,7 @@ namespace classes
     {
         static void Main(string[] args)
         {
-            Calisan calisan1 = new Calisan();
-            calisan1.Ad = "Kaan";
-            calisan1.Soyad = "Akçay";
-            calisan1.No = 232;
-            calisan1.Departman = "İnşaat";
+            Calisan calisan1 = new Calisan("Kaan", "Akçay", 232, "İnşaat");
 
             calisan1.CalisanBilgileri();
         }
@@ -21,6 +17,15 @@ namespace classes
         public string Soyad;
         public int No;
         public string Departman;
+
+        public Calisan() { } // nesneyi oluşturduktan sonra değer atayabilmek için
+        public Calisan(string ad, string soyad, int no, string departman)
+        {
+            this.Ad = ad;
+            this.Soyad = soyad;
+            this.No = no;
+            this.Departman = departman;
+        }
 
         public void CalisanBilgileri()
         {
