@@ -1,0 +1,16 @@
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\struct.exe
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\struct.deps.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\struct.runtimeconfig.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\struct.runtimeconfig.dev.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\struct.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\ref\struct.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\bin\Debug\net5.0\struct.pdb
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.csproj.AssemblyReference.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.AssemblyInfoInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.AssemblyInfo.cs
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.csproj.CoreCompileInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\ref\struct.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.pdb
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\struct\obj\Debug\net5.0\struct.genruntimeconfig.cache
