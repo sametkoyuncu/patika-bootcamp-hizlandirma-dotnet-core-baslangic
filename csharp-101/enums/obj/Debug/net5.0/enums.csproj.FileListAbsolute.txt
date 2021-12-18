@@ -1,0 +1,16 @@
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\enums.exe
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\enums.deps.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\enums.runtimeconfig.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\enums.runtimeconfig.dev.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\enums.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\ref\enums.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\bin\Debug\net5.0\enums.pdb
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.csproj.AssemblyReference.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.AssemblyInfoInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.AssemblyInfo.cs
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.csproj.CoreCompileInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\ref\enums.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.pdb
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\enums\obj\Debug\net5.0\enums.genruntimeconfig.cache
