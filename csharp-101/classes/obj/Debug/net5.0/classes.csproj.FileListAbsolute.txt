@@ -1,0 +1,16 @@
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\classes.exe
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\classes.deps.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\classes.runtimeconfig.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\classes.runtimeconfig.dev.json
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\classes.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\ref\classes.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\bin\Debug\net5.0\classes.pdb
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.csproj.AssemblyReference.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.AssemblyInfoInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.AssemblyInfo.cs
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.csproj.CoreCompileInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\ref\classes.dll
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.pdb
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\classes\obj\Debug\net5.0\classes.genruntimeconfig.cache
