@@ -1,0 +1,5 @@
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\AbstractClasses\obj\Debug\net5.0\AbstractClasses.csproj.AssemblyReference.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\AbstractClasses\obj\Debug\net5.0\AbstractClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\AbstractClasses\obj\Debug\net5.0\AbstractClasses.AssemblyInfoInputs.cache
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\AbstractClasses\obj\Debug\net5.0\AbstractClasses.AssemblyInfo.cs
+C:\Users\zipla\Documents\patika-bootcamp-hizlandirma-dotnet-core-baslangic\csharp-101\AbstractClasses\obj\Debug\net5.0\AbstractClasses.csproj.CoreCompileInputs.cache
