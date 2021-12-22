@@ -6,6 +6,77 @@ namespace One
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            List<Kisi> rehber = new List<Kisi>();
+            rehber.Add(new Kisi("Samet", "Koyuncu", "05333333333"));
+            rehber.Add(new Kisi("Ayşe", "Yılmaz", "05444444444"));
+            rehber.Add(new Kisi("Büşra", "Korkmaz", "05555555555"));
+            int islem;
+            string silinecekVeri;
+            string duzenlenecekVeri;
+            while (true)
+            {
+                islem = giris();
+                switch (islem)
+                {
+                    case 1:
+                        yeniKisi(ref rehber);
+                        break;
+                    case 2:
+                        Console.WriteLine("Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:");
+                        silinecekVeri = Console.ReadLine();
+                        kisiSil(ref rehber, silinecekVeri);
+                        break;
+                    case 3:
+                        Console.WriteLine("Lütfen düzenlemek istediğiniz kişinin adını ya da soyadını giriniz:");
+                        duzenlenecekVeri = Console.ReadLine();
+                        kisiDuzenle(ref rehber, duzenlenecekVeri);
+                        break;
+                    case 4:
+                        listele(ref rehber);
+                        break;
+                    case 5:
+                        kisiBul(ref rehber);
+                        break;
+                    default:
+                        Console.WriteLine("Lütfen geçerli bir işlem seçiniz: ");
+                        break;
+                }
+            }
+
+
+        }
+
+        class Kisi
+        {
+            public string Ad;
+            public string Soyad;
+            public string Telefon;
+
+            public Kisi(string ad, string soyad, string telefon)
+            {
+                Ad = ad;
+                Soyad = soyad;
+                Telefon = telefon;
+            }
+        }
+
+        public static int giris()
+        {
+
+            Console.WriteLine("Lütfen Yapmak İstediğiniz İşlemi Seçiniz :)");
+            Console.WriteLine("*******************************************");
+            Console.WriteLine("(1) Yeni Numara Kaydetmek");
+            Console.WriteLine("(2) Varolan Numarayı Silmek");
+            Console.WriteLine("(3) Varolan Numarayı Güncelleme");
+            Console.WriteLine("(4) Rehberi Listelemek");
+            Console.WriteLine("(5) Rehberde Arama Yapmak");
+            Console.WriteLine("(ctrl + c) Çıkış Yap");
+
+            return Int32.Parse(Console.ReadLine());
+        }
+
         private static void yeniKisi(ref List<Kisi> rehber)
         {
             Console.WriteLine("Lütfen isim giriniz:");
@@ -135,74 +206,46 @@ namespace One
                 Console.WriteLine("-");
             }
         }
-        static void Main(string[] args)
+
+        private static void kisiBul(ref List<Kisi> rehber)
         {
-            List<Kisi> rehber = new List<Kisi>();
-            rehber.Add(new Kisi("Samet", "Koyuncu", "05333333333"));
-            rehber.Add(new Kisi("Ayşe", "Yılmaz", "05444444444"));
-            rehber.Add(new Kisi("Büşra", "Korkmaz", "05555555555"));
-            int islem;
-            string silinecekVeri;
-            string duzenlenecekVeri;
-            while (true)
+            string ara;
+            int secim;
+            List<Kisi> aramaSonuclari = new List<Kisi>();
+            Console.WriteLine("Arama yapmak istediğiniz tipi seçiniz.");
+            Console.WriteLine("***********************************************");
+            Console.WriteLine("İsim veya soyisime göre arama yapmak için: (1)");
+            Console.WriteLine("Telefon numarasına göre arama yapmak için: (2)");
+
+            secim = Int32.Parse(Console.ReadLine());
+
+            switch (secim)
             {
-                islem = giris();
-                switch (islem)
-                {
-                    case 1:
-                        yeniKisi(ref rehber);
-                        break;
-                    case 2:
-                        Console.WriteLine("Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:");
-                        silinecekVeri = Console.ReadLine();
-                        kisiSil(ref rehber, silinecekVeri);
-                        break;
-                    case 3:
-                        Console.WriteLine("Lütfen düzenlemek istediğiniz kişinin adını ya da soyadını giriniz:");
-                        duzenlenecekVeri = Console.ReadLine();
-                        kisiDuzenle(ref rehber, duzenlenecekVeri);
-                        break;
-                    case 4:
-                        listele(ref rehber);
-                        break;
-                    default:
-                        Console.WriteLine("Lütfen geçerli bir işlem seçiniz: ");
-                        break;
-                }
+                case 1:
+                    Console.WriteLine("Aranacak ismi veya soyismi giriniz: ");
+                    ara = Console.ReadLine();
+                    aramaSonuclari = rehber.FindAll(x => x.Ad == ara || x.Soyad == ara).ToList();
+                    break;
+                case 2:
+                    Console.WriteLine("Aranacak telefon numarasını giriniz: ");
+                    ara = Console.ReadLine();
+                    aramaSonuclari = rehber.FindAll(x => x.Telefon == ara).ToList();
+                    break;
+                default:
+                    Console.WriteLine("Geçersiz seçim, rehber varsayılan şekilde listelenecek.");
+                    break;
             }
 
-
-        }
-
-        class Kisi
-        {
-            public string Ad;
-            public string Soyad;
-            public string Telefon;
-
-            public Kisi(string ad, string soyad, string telefon)
+            Console.WriteLine("Arama Sonuçları");
+            Console.WriteLine("**********************************************");
+            foreach (var kisi in aramaSonuclari)
             {
-                Ad = ad;
-                Soyad = soyad;
-                Telefon = telefon;
+                Console.WriteLine(" İsim: {0}", kisi.Ad);
+                Console.WriteLine(" Soyisim: {0}", kisi.Soyad);
+                Console.WriteLine(" Telefon Numarası: {0}", kisi.Telefon);
+                Console.WriteLine("-");
             }
         }
-
-        public static int giris()
-        {
-
-            Console.WriteLine("Lütfen Yapmak İstediğiniz İşlemi Seçiniz :)");
-            Console.WriteLine("*******************************************");
-            Console.WriteLine("(1) Yeni Numara Kaydetmek");
-            Console.WriteLine("(2) Varolan Numarayı Silmek");
-            Console.WriteLine("(3) Varolan Numarayı Güncelleme");
-            Console.WriteLine("(4) Rehberi Listelemek");
-            Console.WriteLine("(5) Rehberde Arama Yapmak");
-            Console.WriteLine("(ctrl + c) Çıkış Yap");
-
-            return Int32.Parse(Console.ReadLine());
-        }
-
 
     }
 }
