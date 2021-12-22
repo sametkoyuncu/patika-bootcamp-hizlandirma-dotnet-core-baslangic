@@ -89,20 +89,40 @@ namespace One
             int secim;
             Console.WriteLine("Sıralama yöntemi seçiniz: ");
 
+            Console.WriteLine("* İsme göre A'dan Z'ye : (1)");
+            Console.WriteLine("* İsme göre Z'den A'ya : (2)");
+
+            Console.WriteLine("* Soyisme göre A'dan Z'ye : (3)");
+            Console.WriteLine("* Soyisme göre Z'den A'ya : (4)");
+
+            Console.WriteLine("* Telefon numarasına göre 0'dan 9'a : (5)");
+            Console.WriteLine("* Telefon numarasına göre 9'dan 0'a : (6)");
+
             secim = Int32.Parse(Console.ReadLine());
-            if (secim == 1)
+
+            switch (secim)
             {
-                rehber.Sort();
-            }
-            else if (secim == 2)
-            {
-                rehber.Sort();
-                rehber.Reverse();
-            }
-            else
-            {
-                Console.WriteLine("Geçersiz seçim yaptınız!!");
-                listele(ref rehber);
+                case 1:
+                    rehber = rehber.OrderBy(x => x.Ad).ToList();
+                    break;
+                case 2:
+                    rehber = rehber.OrderByDescending(x => x.Ad).ToList();
+                    break;
+                case 3:
+                    rehber = rehber.OrderBy(x => x.Soyad).ToList();
+                    break;
+                case 4:
+                    rehber = rehber.OrderByDescending(x => x.Soyad).ToList();
+                    break;
+                case 5:
+                    rehber = rehber.OrderBy(x => x.Telefon).ToList();
+                    break;
+                case 6:
+                    rehber = rehber.OrderByDescending(x => x.Telefon).ToList();
+                    break;
+                default:
+                    Console.WriteLine("Geçersiz seçim, rehber varsayılan şekilde listelenecek.");
+                    break;
             }
 
             Console.WriteLine("Telefon Rehberi");
